@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e3caa69ed68440039e822bdb0ec12fe9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e3caa69ed68440039e822bdb0ec12fe9" ></div>
+        
+</body>
+<script>    
+    
+            var map_e3caa69ed68440039e822bdb0ec12fe9 = L.map(
+                "map_e3caa69ed68440039e822bdb0ec12fe9",
+                {
+                    center: [49.4871968, 31.2718321],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fea04eb733d448c088f039f7a00e4f35 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e3caa69ed68440039e822bdb0ec12fe9);
+        
+    
+            var feature_group_b4200675181a4f13aa5127868fca77fd = L.featureGroup(
+                {}
+            ).addTo(map_e3caa69ed68440039e822bdb0ec12fe9);
+        
+    
+            var marker_c58e26ce7e2b4fe1905f9ce7cc3f8d30 = L.marker(
+                [49.4871968, 31.2718321],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_0f05e81024574066a5eff1f8cde0e109 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter-square", "iconColor": "red", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c58e26ce7e2b4fe1905f9ce7cc3f8d30.setIcon(icon_0f05e81024574066a5eff1f8cde0e109);
+        
+    
+        var popup_24ae8f0ab3b14f6a9dd66867a5d33f80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d39fc3fb561473485e85a7eb7aaadc7 = $(`<div id="html_0d39fc3fb561473485e85a7eb7aaadc7" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1105053433801912321/RuEIUswr_normal.jpg" alt="static/id-card-solid.svg"><i>Oleg 💡〰️🌈</i></div>`)[0];
+            popup_24ae8f0ab3b14f6a9dd66867a5d33f80.setContent(html_0d39fc3fb561473485e85a7eb7aaadc7);
+        
+
+        marker_c58e26ce7e2b4fe1905f9ce7cc3f8d30.bindPopup(popup_24ae8f0ab3b14f6a9dd66867a5d33f80)
+        ;
+
+        
+    
+    
+            var marker_462d18a815394911b145d65ae32bd6b9 = L.marker(
+                [49.49027239701323, 31.268258813268975],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_8b6df2b4de714016b3a9f47893aa76b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_462d18a815394911b145d65ae32bd6b9.setIcon(icon_8b6df2b4de714016b3a9f47893aa76b2);
+        
+    
+        var popup_58ce612ea80243ccbf98fa750fed00fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5007cd8e1ff64601a4efa9bf07ca857a = $(`<div id="html_5007cd8e1ff64601a4efa9bf07ca857a" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1232254802073194496/mAADjoEa_normal.jpg" alt="static/id-card-solid.svg"><i>демагогічне плацебо</i></div>`)[0];
+            popup_58ce612ea80243ccbf98fa750fed00fb.setContent(html_5007cd8e1ff64601a4efa9bf07ca857a);
+        
+
+        marker_462d18a815394911b145d65ae32bd6b9.bindPopup(popup_58ce612ea80243ccbf98fa750fed00fb)
+        ;
+
+        
+    
+    
+            marker_462d18a815394911b145d65ae32bd6b9.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78dc3b6d3c0d4405a6352317e70fd853 = L.marker(
+                [49.9584438, -110.2732606],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_230325d08b924fbe992a593aa65f49fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_78dc3b6d3c0d4405a6352317e70fd853.setIcon(icon_230325d08b924fbe992a593aa65f49fc);
+        
+    
+        var popup_9aa99901dbab42c19b9769b6b801ca92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84d2da70b8b741e8855959ff51f5a2df = $(`<div id="html_84d2da70b8b741e8855959ff51f5a2df" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1133539025892118528/0_2baT-X_normal.png" alt="static/id-card-solid.svg"><i>Christie Golden</i></div>`)[0];
+            popup_9aa99901dbab42c19b9769b6b801ca92.setContent(html_84d2da70b8b741e8855959ff51f5a2df);
+        
+
+        marker_78dc3b6d3c0d4405a6352317e70fd853.bindPopup(popup_9aa99901dbab42c19b9769b6b801ca92)
+        ;
+
+        
+    
+    
+            marker_78dc3b6d3c0d4405a6352317e70fd853.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eeb478ed847c4b06847d146e89a6a64c = L.marker(
+                [54.5964411, -5.9302761],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_2453918d64164a5da1c6f2273ee19e1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_eeb478ed847c4b06847d146e89a6a64c.setIcon(icon_2453918d64164a5da1c6f2273ee19e1b);
+        
+    
+        var popup_743ff23a6ace4088b8e10be686c20015 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c55967d9a2d4424ca4d18ec4110a3d6c = $(`<div id="html_c55967d9a2d4424ca4d18ec4110a3d6c" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1059483376430862336/qceb8gUm_normal.jpg" alt="static/id-card-solid.svg"><i>Michael</i></div>`)[0];
+            popup_743ff23a6ace4088b8e10be686c20015.setContent(html_c55967d9a2d4424ca4d18ec4110a3d6c);
+        
+
+        marker_eeb478ed847c4b06847d146e89a6a64c.bindPopup(popup_743ff23a6ace4088b8e10be686c20015)
+        ;
+
+        
+    
+    
+            marker_eeb478ed847c4b06847d146e89a6a64c.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab748b43c3694505b820688a59dc8a65 = L.marker(
+                [49.48890238833541, 31.2665252919849],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_0bc9fc50de004c518aaf77b15a05750c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_ab748b43c3694505b820688a59dc8a65.setIcon(icon_0bc9fc50de004c518aaf77b15a05750c);
+        
+    
+        var popup_b61ccaaf6347414ab1129c4d51168c17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_419fc0f456a341d49aa00693bc61f3c5 = $(`<div id="html_419fc0f456a341d49aa00693bc61f3c5" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1224351942132084736/ypFXPq2n_normal.jpg" alt="static/id-card-solid.svg"><i>🍷Юні думи🍷</i></div>`)[0];
+            popup_b61ccaaf6347414ab1129c4d51168c17.setContent(html_419fc0f456a341d49aa00693bc61f3c5);
+        
+
+        marker_ab748b43c3694505b820688a59dc8a65.bindPopup(popup_b61ccaaf6347414ab1129c4d51168c17)
+        ;
+
+        
+    
+    
+            marker_ab748b43c3694505b820688a59dc8a65.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb4bac98c8484ac581e9975a794e61e5 = L.marker(
+                [48.9225224, 24.7103188],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_8b0eaee4fa1347c581bc94cfdb5764fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_eb4bac98c8484ac581e9975a794e61e5.setIcon(icon_8b0eaee4fa1347c581bc94cfdb5764fd);
+        
+    
+        var popup_c8ca667fb4584fc4bbb7dd53feb64649 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f86030aa1c85452792624c2eeb4c0cdb = $(`<div id="html_f86030aa1c85452792624c2eeb4c0cdb" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1231704938671198209/sq2UkQkU_normal.jpg" alt="static/id-card-solid.svg"><i>квітка основ‘яненка 🦐</i></div>`)[0];
+            popup_c8ca667fb4584fc4bbb7dd53feb64649.setContent(html_f86030aa1c85452792624c2eeb4c0cdb);
+        
+
+        marker_eb4bac98c8484ac581e9975a794e61e5.bindPopup(popup_c8ca667fb4584fc4bbb7dd53feb64649)
+        ;
+
+        
+    
+    
+            marker_eb4bac98c8484ac581e9975a794e61e5.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bd092abf6fe4462a8c0166fc05fb57b = L.marker(
+                [49.48743953171143, 31.274636091003806],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_5c29fec1da1c44ba93b758e179422d3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_1bd092abf6fe4462a8c0166fc05fb57b.setIcon(icon_5c29fec1da1c44ba93b758e179422d3a);
+        
+    
+        var popup_28fca12922ba4e78a8a5b0f4dc30ee12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b821268d222549abbd0856c404e667d9 = $(`<div id="html_b821268d222549abbd0856c404e667d9" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1169645260206759937/OzWL_Z3z_normal.jpg" alt="static/id-card-solid.svg"><i>жуль</i></div>`)[0];
+            popup_28fca12922ba4e78a8a5b0f4dc30ee12.setContent(html_b821268d222549abbd0856c404e667d9);
+        
+
+        marker_1bd092abf6fe4462a8c0166fc05fb57b.bindPopup(popup_28fca12922ba4e78a8a5b0f4dc30ee12)
+        ;
+
+        
+    
+    
+            marker_1bd092abf6fe4462a8c0166fc05fb57b.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f36c70dec5dc47c8850fc4bc495ad1c9 = L.marker(
+                [50.0469432, 19.997153435836697],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_c543e19c078d43c3abf1ee285ed18e8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_f36c70dec5dc47c8850fc4bc495ad1c9.setIcon(icon_c543e19c078d43c3abf1ee285ed18e8f);
+        
+    
+        var popup_2e1d8f7aee6647bd9c3f0b52df1dc2ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23b9b76a816b401a850d34217f466bee = $(`<div id="html_23b9b76a816b401a850d34217f466bee" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1199011377475665923/9BKbeWBW_normal.jpg" alt="static/id-card-solid.svg"><i>kardamonkardashian</i></div>`)[0];
+            popup_2e1d8f7aee6647bd9c3f0b52df1dc2ad.setContent(html_23b9b76a816b401a850d34217f466bee);
+        
+
+        marker_f36c70dec5dc47c8850fc4bc495ad1c9.bindPopup(popup_2e1d8f7aee6647bd9c3f0b52df1dc2ad)
+        ;
+
+        
+    
+    
+            marker_f36c70dec5dc47c8850fc4bc495ad1c9.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_994845a4754f4ffdb0e21dfe3904047b = L.marker(
+                [49.841952, 24.0315921],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_379507355a324e53b77b1e8cb408cd43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_994845a4754f4ffdb0e21dfe3904047b.setIcon(icon_379507355a324e53b77b1e8cb408cd43);
+        
+    
+        var popup_241d69c512264409bc7ccd522638b23b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1cb4a37f41143d393966d7d44730808 = $(`<div id="html_f1cb4a37f41143d393966d7d44730808" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1054620875033587713/xZQp_kFr_normal.jpg" alt="static/id-card-solid.svg"><i>RavenbornJB</i></div>`)[0];
+            popup_241d69c512264409bc7ccd522638b23b.setContent(html_f1cb4a37f41143d393966d7d44730808);
+        
+
+        marker_994845a4754f4ffdb0e21dfe3904047b.bindPopup(popup_241d69c512264409bc7ccd522638b23b)
+        ;
+
+        
+    
+    
+            marker_994845a4754f4ffdb0e21dfe3904047b.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_701e0c82aeef46c694360495201563fd = L.marker(
+                [39.4562528, -77.9639604],
+                {}
+            ).addTo(feature_group_b4200675181a4f13aa5127868fca77fd);
+        
+    
+            var icon_b6dae2143f60494892dafd955242d34f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "twitter", "iconColor": "orange", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_701e0c82aeef46c694360495201563fd.setIcon(icon_b6dae2143f60494892dafd955242d34f);
+        
+    
+        var popup_df9d97c139a04a5fa2c6f851dae859a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fde96ae6fdc4251bbfaecf039b5381c = $(`<div id="html_6fde96ae6fdc4251bbfaecf039b5381c" style="width: 100.0%; height: 100.0%;"><img src="http://pbs.twimg.com/profile_images/1194913766909136896/41SW2agf_normal.jpg" alt="static/id-card-solid.svg"><i>Anastasiya</i></div>`)[0];
+            popup_df9d97c139a04a5fa2c6f851dae859a9.setContent(html_6fde96ae6fdc4251bbfaecf039b5381c);
+        
+
+        marker_701e0c82aeef46c694360495201563fd.bindPopup(popup_df9d97c139a04a5fa2c6f851dae859a9)
+        ;
+
+        
+    
+    
+            marker_701e0c82aeef46c694360495201563fd.bindTooltip(
+                `<div>
+                     Click to see friend!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Twitter Friends Renderer
+{% endblock %}
+
+{% block header %}
+    Twitter Screen Name:
+{% endblock %}
+
+{% block body %}
+    <form action="{{ url_for('build_map') }}" method="post">
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input type="text" class="form-control" name="name" placeholder="Twitter Screen Name" aria-describedby="basic-addon1">
+        </div>
+
+        {% if error %}
+            <div class="alert alert-danger" role="alert">
+                This user doesn't exist, try again!
+            </div>
+        {% endif %}
+
+        <div class="form-group">
+            <button class="btn btn-primary">Generate Map</button>
+        </div>
+    </form>
+{% endblock %}

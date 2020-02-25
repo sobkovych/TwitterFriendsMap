@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Twitter Friends Renderer
+{% endblock %}
+
+{% block header %}
+        Loading...
+        <img src="../static/pinwheel.gif" alt="../static/circle.gif" class="float-right">
+{% endblock %}
+
+{% block body %}
+    <ol>
+        {% for friend in friends %}
+            <li>
+                {{ friend[0] }}
+                <span class="badge badge-success">Done</span>
+            </li>
+            {% if friend[1] %}
+                <form action="{{ url_for('show_map') }}" method="post">
+                    <div class="form-group">
+                        <button class="btn btn-primary">Show Map</button>
+                    </div>
+                </form>
+            {% endif %}
+        {% endfor %}
+    </ol>
+{% endblock %}
